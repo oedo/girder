@@ -1,7 +1,7 @@
 ---
 - name: Add NodeJS PPA key
   apt_key:
-    keyserver: "keyserver.ubuntu.com"
+    keyserver: "hkps://keyserver.ubuntu.com:443"
     id: "68576280"
   become: true
   become_user: root
